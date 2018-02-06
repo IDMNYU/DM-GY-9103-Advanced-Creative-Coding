@@ -33,6 +33,6 @@ public:
     int               page;
     string            rawData;
     vector <string>   urls;
-    vector <URLImage> images;
+	vector <URLImage> images;
 	string 			searchPhrase;
 };

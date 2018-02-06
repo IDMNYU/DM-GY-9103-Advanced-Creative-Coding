@@ -2,50 +2,42 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-	bgVideo.load("Aurora_Police_Department_Recruitment_Video.mp4");
-	videoPanel.load("presto-pizza-south-beach2_512kb.mp4");
-	windows95.load("Windows_95_Launch-lAkuJXGldrM.mp4");
-	ofSetRectMode(OF_RECTMODE_CENTER);
-	//need to call play before we can update the videos and draw to screen
-	bgVideo.play();
-	videoPanel.play();
-	windows95.play();
 	
-	//sets the name of our Window
-	ofSetWindowTitle("Presto Pizza");
+	ofImage myImage;
+	myImage.load("Jacksonstvshow.jpg");
+	
+	
+	mImages.push_back(myImage);
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-	ofBackground(255, 255, 255);
-	//remember to update your videos to next frame
-	bgVideo.update();
-	videoPanel.update();
-	windows95.update();
+
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-	//if both videos are loaded, then draw
-	if(bgVideo.isLoaded() && videoPanel.isLoaded()){
-		//fmod() is a way of doing modulus with floating point numbers in C++
+	ofBackground(ofColor::bisque);
+	ofPushMatrix();
+	ofTranslate(ofGetWidth() /4, ofGetMouseY());
+	float rotationAngle = ofMap(
+								ofGetElapsedTimef(),
+								0,
+								20,
+								0,
+								360);
+	ofRotateX(rotationAngle);
+	
+	for(auto image : mImages){
 		
-		
-		if(fmod(ofGetElapsedTimeMillis() *0.125, 360.0) < 180.0){
-			windows95.draw(ofGetWidth()/2, ofGetHeight()/2);
-		} else {
-			bgVideo.draw(ofGetWidth()/2, ofGetHeight()/2);
-		}
-
-		//isolate our translation matrix
-		ofPushMatrix();
-			ofTranslate(ofGetWidth()/2, ofGetHeight()/2);
-			ofRotateY(ofGetElapsedTimeMillis() *0.125);
-			ofRotateX(15.0f);
-			videoPanel.draw(0,0);
-		ofPopMatrix();
+		image.draw(0,0);
 	}
-
+	
+	
+	ofPopMatrix();
+	
+	ofDrawRectangle(100,100,200,200);
+	ofDrawBitmapString("This is really important text", 20,20);
 }
 
 //--------------------------------------------------------------
