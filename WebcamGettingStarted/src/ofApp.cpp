@@ -3,20 +3,22 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
 	mVidGrabber.setVerbose(true);
-	mVidGrabber.setup(320,240);
+	mVidGrabber.setup(1280,720);
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
 	mVidGrabber.update();
 	if(mVidGrabber.isFrameNew()){
-		ofLogNotice() << "frame new" << endl;
+//		ofLogNotice() << "frame new" << endl;
 	}
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
 	ofSetHexColor(0xffffff);
+//	ofLogNotice() << ofGetFrameRate() << endl;
+	
 	mVidGrabber.draw(ofGetWidth()/2 - mVidGrabber.getWidth()/2, ofGetHeight()/2 - mVidGrabber.getHeight()/2);
 }
 

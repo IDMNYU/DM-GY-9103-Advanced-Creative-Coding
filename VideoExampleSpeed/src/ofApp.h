@@ -21,5 +21,7 @@ class ofApp : public ofBaseApp{
 	
 		void animatePlayPause();
 		ofVideoPlayer player;
+		ofImage mImage;
+		ofFbo mFbo;
 		ofColor buttonColor;
 };

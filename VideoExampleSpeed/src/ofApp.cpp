@@ -11,11 +11,13 @@ void ofApp::setup(){
 	player.load("3.Mousetraps.mp4");
 	player.play();
 	buttonColor = ofColor(255, 255, 255, 255);
+	
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
 	player.update();
+		
 }
 
 //--------------------------------------------------------------

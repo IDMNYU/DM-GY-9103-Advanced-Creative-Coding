@@ -26,5 +26,4 @@ class ofApp : public ofBaseApp{
 		ofVideoGrabber mVideoGrabber;
 		ofxCvColorImage mColorImage;
 		ofxCvGrayscaleImage mGrayscaleImage;
-	
 };

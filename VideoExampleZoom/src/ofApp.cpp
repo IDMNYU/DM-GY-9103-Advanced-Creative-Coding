@@ -29,7 +29,10 @@ void ofApp::draw(){
 		ofPushMatrix();
 		ofTranslate(-ofGetMouseX(), -ofGetMouseY());
 		ofScale(zoomFactor,zoomFactor);
-		player.draw(ofGetWidth()/2, ofGetHeight()/2, ofGetWidth(), ofGetWidth() / aspectRatio);
+		if(player.isLoaded()){
+		player.getTexture().drawSubsection(0, 0, ofGetHeight(), ofGetWidth(),ofGetMouseX(), ofGetMouseY(), ofGetWidth(), ofGetHeight());
+		}
+//		player.draw(ofGetWidth()/2, ofGetHeight()/2, ofGetWidth(), ofGetWidth() / aspectRatio);
 		ofPopMatrix();
 	}
 	//if the button color alpha is greater than 4

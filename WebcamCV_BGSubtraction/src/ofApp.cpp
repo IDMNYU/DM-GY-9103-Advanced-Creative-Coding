@@ -40,7 +40,6 @@ void ofApp::draw(){
 	//we draw the grayscale difference which separates our bg from our subject
 	mGrayDifference.draw(mColorImage.getWidth()*2.0+40, mVideoGrabber.getWidth() + 20);
 	
-	
 }
 
 //--------------------------------------------------------------

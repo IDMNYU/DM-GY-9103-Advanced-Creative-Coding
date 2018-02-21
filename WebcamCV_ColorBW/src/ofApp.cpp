@@ -6,6 +6,8 @@ void ofApp::setup(){
 	mVideoGrabber.setVerbose(true);//set the videoGrabber to verbose so we can get a debug output
 	mColorImage.allocate(320, 240);
 	mGrayscaleImage.allocate(320, 240);
+	
+	mBall.checkIntersects(ofVec2f(2.4f));
 }
 
 //--------------------------------------------------------------
@@ -23,7 +25,6 @@ void ofApp::draw(){
 	mVideoGrabber.draw(20, 20);//draw the videoGrabber output
 	mColorImage.draw(20, mVideoGrabber.getWidth() + 20);//draw the colorImage output
 	mGrayscaleImage.draw(mColorImage.getWidth()+40, mVideoGrabber.getWidth() + 20);//draw the grayscaleImage output
-	
 }
 
 //--------------------------------------------------------------
