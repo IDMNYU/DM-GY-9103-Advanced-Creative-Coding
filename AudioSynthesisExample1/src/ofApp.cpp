@@ -156,6 +156,7 @@ void ofApp::audioOut(float * output, int bufferSize, int nChannels){
 		}
 	} else {
 		phaseAdder = 0.95f * phaseAdder + 0.05f * phaseAdderTarget;
+		ofLog() << phase << endl;
 		for (int i = 0; i < bufferSize; i++){
 			phase += phaseAdder;
 			float sample = sin(phase);

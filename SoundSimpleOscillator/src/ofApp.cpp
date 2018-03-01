@@ -2,43 +2,39 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-	mVideoGrabber.setup(320, 240);
-	mVideoGrabber.setVerbose(true);//set the videoGrabber to verbose so we can get a debug output
-	mColorImage.allocate(320, 240);
-	mGrayscaleImage.allocate(320, 240);
-	mBgImage.allocate(320, 240);
-	mGrayDifference.allocate(320, 240);
+	mGui.setup("oscillator settings");
+	mFreqSlider.setup("frequency", 200.0f, 60.0f, 2500.0f);
+	mVolumeSlider.setup("volume(amplitude)", 0.2f,0.0f,0.89f);
+	//ampersand means we pass in the variable location in memory
+	//because inside the add function we create a pointer
+	mGui.add(&mFreqSlider);
+	mGui.add(&mVolumeSlider);
+	// 2 output channels (stereo), 0 input channels
+	// 512 samples per buffer, 2 buffers
+	ofSoundStreamSetup(2, 0, sampleRate, 512, 2);
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-	mVideoGrabber.update();
 
-	
-	if(mVideoGrabber.isFrameNew()){
-		mColorImage.setFromPixels(mVideoGrabber.getPixels());
-		mGrayscaleImage = mColorImage;//notice how we set the grayscale image to the val of our colorImage. This is done through operator overloading in C++
-		
-		
-		
-	}
-	//every 5 seconds we will sample a new background
-	if(ofGetSeconds() % 5 == 0){
-		mBgImage = mGrayscaleImage;
-	}
-	//we set our difference to the absDiff
-	mGrayDifference.absDiff(mGrayscaleImage, mBgImage);
-	mGrayDifference.threshold(80);
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-	mVideoGrabber.draw(20, 20);//draw the videoGrabber output
-	mColorImage.draw(20, mVideoGrabber.getWidth() + 20);//draw the colorImage output
-	mGrayscaleImage.draw(mColorImage.getWidth()+40, mVideoGrabber.getWidth() + 20);//draw the grayscaleImage output
+	mGui.draw();//draw our gui
+}
+
+
+void ofApp::audioOut(ofSoundBuffer &outBuffer){
 	
-	//we draw the grayscale difference which separates our bg from our subject
-	mGrayDifference.draw(mColorImage.getWidth()*2.0+40, mVideoGrabber.getWidth() + 20);
+	for(int i = 0; i < outBuffer.size(); i += 2) {
+		float sample = sin(mPhase*TWO_PI) * (float)mVolumeSlider; // generating a sine wave sample
+		outBuffer[i] = sample; // writing to the left channel
+		outBuffer[i+1] = sample; // writing to the right channel
+		//memorize this equation! phaseOffset = freq / sampleRate
+		float phaseOffset = ((float)mFreqSlider / (float)sampleRate);
+		mPhase += phaseOffset;
+	}
 }
 
 //--------------------------------------------------------------

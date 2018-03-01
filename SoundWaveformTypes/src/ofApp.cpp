@@ -5,14 +5,16 @@ void ofApp::setup(){
 	mGui.setup("oscillator settings");
 	mFreqSlider.setup("frequency", 200.0f, 60.0f, 2500.0f);
 	mVolumeSlider.setup("volume(amplitude)", 0.0f,0.0f,0.5f);
-	mLfoFreqSlider.setup("lfo freq", 0.5, 0.0f, 15.0f);
-	mLfoAmpSlider.setup("lfo amplitude",0.0f,0.0f,0.5f);
+	mTriggerSoundBtn.setup("Press to trigger envelope");
+	//we add an event listener so we can
+	//call onButtonPress method when our
+	//button is pressed!
+	mTriggerSoundBtn.addListener(this, &ofApp::onButtonPress);
 	//ampersand means we pass in the variable location in memory
 	//because inside the add function we create a pointer
 	mGui.add(&mFreqSlider);
 	mGui.add(&mVolumeSlider);
-	mGui.add(&mLfoFreqSlider);
-	mGui.add(&mLfoAmpSlider);
+	mGui.add(&mTriggerSoundBtn);
 	// 2 output channels (stereo), 0 input channels
 	// 512 samples per buffer, 2 buffers
 	ofSoundStreamSetup(2, 0, sampleRate, 512, 2);
@@ -20,59 +22,42 @@ void ofApp::setup(){
 
 //--------------------------------------------------------------
 void ofApp::update(){
-	
+	//we could move this code into its own function
+	ofScopedLock waveformLock(mWaveformMutex);
+	if(bTriggerOsc && (float)mVolumeSlider < 0.3f){
+	//each time update runs, we lerp towards 0.6f by 0.002
+	//to make the lerp go faster, increase the last param
+	mVolumeSlider = ofLerp(mVolumeSlider, 0.6f, 0.002);
+	}
+	else {
+		bTriggerOsc = false;
+	}
+	ofLogNotice("volume") << (float)mVolumeSlider << endl;
 }
-
 
 //--------------------------------------------------------------
 void ofApp::draw(){
 	ofBackgroundGradient(ofColor::white, ofColor::gray);
-	mGui.draw();
-
+	mGui.draw();//draw our gui
 }
 
-
-
-//void ofApp::AM(float * output, int buffer_size) {
-//	for(int i = 0; i < buffer_size; i++) {
-//		output[i] = sin(ofMap(mouseX, 0,ofGetWidth(), 0,360.0)+ wavePhase) * sin(ofMap(mouseY, 0,ofGetHeight(), 0,360.0)+ wavePhase);
-//	}
-//}
-//
-//void ofApp::FM(float * output, int buffer_size) {
-//	for(int i = 0; i < buffer_size; i++) {
-////		output[i] = osc1.sinewave(osc2.sinewave(mouseX) * mouseY + 440.0);
-//	}
-//}
+//method called when we press our button
+void ofApp::onButtonPress(){
+	mVolumeSlider = (float) 0.0f;
+	if(!bTriggerOsc) bTriggerOsc = true;
+}
 
 void ofApp::audioOut(ofSoundBuffer &outBuffer){
 	ofScopedLock waveformLock(mWaveformMutex);
 	for(int i = 0; i < outBuffer.size(); i += 2) {
-		if(mCurrentMod == ModulationType::FM){
-			mPhase += ofDegToRad(sin(mModPhase)*0.01f);
-			
-		}
 		float sample = generateSample(mPhase, currWaveForm);
-		sample = modulateSample(sample, (float) mLfoFreqSlider, mModPhase, mCurrentMod);
-		
 		sample *= (float)mVolumeSlider; // generating a sine wave sample
 		outBuffer[i] = sample; // writing to the left channel
 		outBuffer[i+1] = sample; // writing to the right channel
-		
 		//memorize this equation! phaseOffset = freq / sampleRate
-		
 		float phaseOffset = ((float)mFreqSlider / (float)sampleRate);
-		float modOffset = (float) mLfoFreqSlider / (float)sampleRate;
 		mPhase += phaseOffset;
-		mModPhase += modOffset;
 	}
-}
-
-float ofApp::modulateSample(float sample, float modFreq, float modOffset, const ModulationType modType){
-	if(modType == ModulationType::AM){
-		return sample * sin(modOffset *TWO_PI);
-	}
-	return sample;
 }
 
 //returns a sample given an input phase and desired
@@ -89,36 +74,14 @@ float ofApp::generateSample(float phase, int waveType){
 			return fmod(phase,TWO_PI);
 		case 4://triangle
 			return abs(sin(phase*TWO_PI));
-		default://default is sine wave
-			return sin(phase*TWO_PI);
+		default:
 			break;
 	}
 }
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
-	switch (key) {
-		case '1':
-			currWaveForm = 1;
-			break;
-		case '2':
-			currWaveForm = 2;
-			break;
-		case '3':
-			currWaveForm = 3;
-			break;
-		case '4':
-			currWaveForm = 4;
-			break;
-		case 'f':
-			mCurrentMod = ModulationType::FM;
-			break;
-		case 'a':
-			mCurrentMod = ModulationType::AM;
-			break;
-		default:
-			break;
-	}
+	currWaveForm = key;
 }
 
 //--------------------------------------------------------------
