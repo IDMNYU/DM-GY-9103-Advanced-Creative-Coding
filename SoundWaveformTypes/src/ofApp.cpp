@@ -81,7 +81,21 @@ float ofApp::generateSample(float phase, int waveType){
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
-	currWaveForm = key;
+	switch (key) {
+		case '1':
+			currWaveForm = 1;
+			break;
+		case '2':
+			currWaveForm = 2;
+			break;
+		case '3':
+			currWaveForm = 3;
+			break;
+		case '4':
+			currWaveForm = 4;
+		default:
+			break;
+	}
 }
 
 //--------------------------------------------------------------
