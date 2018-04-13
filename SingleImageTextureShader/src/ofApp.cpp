@@ -4,6 +4,7 @@
 void ofApp::setup(){
 	mShader.load("shader");
 	mImage.load("macrame_loungechair_cat.jpg");
+	
 }
 
 //--------------------------------------------------------------
