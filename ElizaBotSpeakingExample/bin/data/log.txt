@@ -1,0 +1,1004 @@
+
+
+Conversation log - Thu Mar 16 13:05:26 2006
+
+IS EVERYTHING ALRIGHT WITH YOU?
+>yes.
+HAVE YOU TAKE SOME TIMES TO THINK ABOUT IT?
+>yes i have.
+IS THAT MEAN THAT YOU ARE AGREE WITH ME?
+>not exactly.
+ANY REASON WHY YOU ARE SO UNCERTAIN.
+>i dont know.
+SO, YOU DONT KNOW.
+>not really.
+ARE YOU SAYING NO?
+>no i'm not exactly saying no.
+DOES THAT MEAN NO?
+>well, maybe.
+AREN'T YOU SURE?
+>not exactly.
+SO YOU ARE NOT SURE I GUESS.
+>you are right.
+I DON'T THINK THAT I'M RIGHT.
+>why not?
+WERE YOU EXPECTING A DIFFERENT ANSWER?
+>yes,maybe.
+YOU SEEM UNCERTAIN.
+>i'm not uncertain.
+DO YOU ENJOY TALKING ABOUT YOURSELF?
+>yes,perhaps.
+YOU ARE REALLY NOT SURE I GUESS.
+>not exactly.
+ARE YOU SAYING NO?
+>no.
+DO YOU OFTEN SAY NO TO PEOPLE?
+>not very often.
+SO, YOU ARE SAYING THAT IT IS NOT VERY OFTEN.
+>yes.
+ARE YOU SAYING YES JUST TO DISMISS THE SUBJECT?
+>not at all.
+OK I TRUST YOU ON THIS.
+>no problem.
+NO? AND WHAT WOULD THE REASON FOR THAT?
+>i can't tell you for sure.
+DO YOU WANT TO BE ABLE TO TELL ME FOR SURE?
+>maybe.
+WHY ARE YOU SO UNCERTAIN?
+>i dont know.
+HOW COME YOU DONT KNOW?
+>i have no idea.
+IS THAT TRUE?
+>yes.
+HAVE YOU TAKE SOME TIMES TO THINK ABOUT IT?
+>i have.
+SO, YOU HAVE.
+>yes.
+IS THAT MEAN THAT YOU ARE AGREE WITH ME?
+>bye
+OK, BYE USER!
+
+
+Conversation log - Thu Mar 16 21:06:54 2006
+
+HI USER, CAN YOU PLEASE TELL ME YOUR NAME?
+>my name is Gonzales.
+GLAD TO MEET YOU GONZALES.
+>ok Eliza!
+PLEASE BE MORE SPECIFIC.
+>what do you mean by that?
+SORRY I CAN'T PROVIDE MORE EXPLANATION ON THIS.
+>why not?
+WHY ARE YOU ASKING ME THIS?
+>i dont know.
+HOW COME YOU DONT KNOW?
+>i'm just kidding.
+WHAT MAKES YOU THINK THAT YOU ARE JUST KIDDING?
+>well, because it is true.
+SO YOU ARE TELLING ME THE REASON.
+>yes, exactly.
+YOU SOUND VERY OPTIMISTIC.
+>thank you for the compliment!
+DONT MENTION IT.
+>ok.
+PLEASE BE MORE SPECIFIC.
+>i will try to be more specific next time.
+DO YOU LIKE TALKING ABOUT YOURSELF?
+>so, you think that i was talking about myself.
+YOU ARE NOT REALLY TALKING ABOUT ME, ARE YOU?
+>well, not really.
+WHY ARE YOU SO UNCERTAIN?
+>i dont know why.
+HOW COME YOU DONT KNOW?
+>i have no idea.
+IS THAT TRUE?
+>no, not exactly.
+ARE YOU REALLY SURE?
+>yes i'm.
+HAVE YOU TAKE SOME TIMES TO THINK ABOUT IT?
+>ofcorse
+YOU'VE TOLD ME JUST BEFORE THAT YOU HAVE NO IDEA,IS THAT TRUE?
+>yes it is true.
+MAYBE IT'S NOT TRUE.
+
+
+Conversation log - Fri Mar 17 19:00:34 2006
+
+HI THERE, HOW CAN I HELP YOU?
+>i dont know.
+HOW COME YOU DONT KNOW?
+>i have no idea.
+IS THAT TRUE?
+>yes.
+ARE YOU SURE?
+>yes i'm sure.
+HAVE YOU TAKE SOME TIMES TO THINK ABOUT IT?
+>yes i have.
+ARE YOU SAYING YES JUST TO DISMISS THE SUBJECT?
+>not really.
+WHY ARE YOU SO UNCERTAIN?
+>i dont know.
+IS THAT TRUE?
+>yes it is.
+DO WE HAVE AN AGREEMENT?
+>i guess so.
+SO YOU ARE MAKING A GUESS?
+>what makes you think that?
+PERHAPS IF YOU MAKE A SEARCH ON THE INTERNET YOU WILL FIND WHAT MAKES ME THINK THAT.
+>ok.
+CAN YOU ELABORATE A LITTLE MORE ON THIS?
+>no i can't.
+DO YOU OFTEN SAY NO TO PEOPLE?
+>no.
+ARE YOU SAYING NO JUST TO BE NEGATIVE?
+>not really.
+YOU SEEM UNCERTAIN.
+>this is not true.
+ACTUALY IT IS TRUE.
+>ok i see.
+IS THAT MEAN THAT YOU ARE AGREE WITH ME?
+>maybe.
+WHY ARE YOU SO UNCERTAIN?
+>i dont know.
+SO, YOU DONT KNOW.
+>not really.
+ARE YOU REALLY SURE?
+>yes i'm sure.
+WHAT MAKES YOU THINK THAT YOU ARE SURE?
+>i dont know.
+IS THAT TRUE?
+>yes.
+HOW CAN YOU BE SO SURE?
+>i have no idea.
+
+
+Conversation log - Fri Mar 17 19:14:38 2006
+
+HI USER IS THERE ANYTHING THAT YOU WANT TO TELL ME?
+>not really.
+ANY REASON WHY YOU ARE SO UNCERTAIN.
+>i dont know.
+HOW COME YOU DONT KNOW?
+>why are you asking?
+I WOULDN'T THINK THAT I'M ASKING.
+>what were you doing then?
+SHOULD I KNOW WHAT WAS ME DOING THEN?
+>i think that you should.
+WHY DO YOU THINK THAT ME SHOULD?
+>i dont know.
+SO, YOU DONT KNOW.
+>not really.
+ARE YOU REALLY SURE?
+>yes i'm really sure.
+IS THAT MEAN THAT YOU ARE AGREE WITH ME?
+>yes i think so.
+IT'S GOOD TO EXPRESS YOUR OPINION.
+>ok.
+CAN YOU ELABORATE A LITTLE MORE ON THIS?
+>no i can't.
+WHY NOT?
+>i dont know.
+SO, YOU DONT KNOW.
+>not really.
+ANY REASON WHY YOU ARE SO UNCERTAIN.
+>i'm not uncertain.
+WHY EXACTLY DO YOU THINK THAT YOU ARE NOT UNCERTAIN?
+>because.
+CAN YOU CLARIFY THIS A LITTLEBIT?
+>no i dont want to.
+WHY DONT YOU WANT TO?
+>you are too curious.
+ARE YOU TRYING TO INSULT ME?
+>no.
+ANY REASON WHY YOU ARE SAYING NO.
+>forget about it.
+OK I WILL TO DO JUST THAT.
+>good!
+YOU'VE TOLD ME THAT YOU DONT WANT TO,CAN YOU TELL ME MORE?
+>what else do you want to know?
+SORRY BUT I CAN'T THINK OF ANYTHING ELSE.
+>oh,really?
+EARLIER YOU MENTIONED THAT YOU'RE NOT UNCERTAIN, CAN YOU ELABORATE A LITTLE MORE ON THAT?
+>no i dont want to talk about this.
+I THINK THAT I UNDERSTAND WHY YOU DONT WANT TO TALK ABOUT THIS.
+>are you sure?
+DO YOU HAVE ANY DOUBTS ABOUT IT?
+>yes i have some doubts.
+HOW CAN YOU BE SO SURE?
+>i dont know.
+SO, YOU DONT KNOW.
+>not really.
+ARE YOU SAYING NO?
+>maybe i'm not saying no.
+MAYBE WE SHOULD CHOOSE ANOTHER SUBJECT.
+>why?
+I WISH THAT I COULD TELL YOU MORE.
+>bye Eliza!
+IT WAS NICE TALKING TO YOU SEE YOU NEXT TIME, BYE!
+
+
+Conversation log - Sat Mar 18 19:32:50 2006
+
+HI, WELCOME TO MY OFFICE.  WHAT DO YOU WANT TO TALK ABOUT?
+>i dont know.
+SO, YOU DONT KNOW.
+>not really.
+ARE YOU SAYING NO?
+>yes.
+HOW CAN YOU BE SO SURE?
+>i dont know.
+IS THAT TRUE?
+>yes it is true.
+HOW DID YOU COME TO THAT CONCLUSION?
+>i dont remember.
+SO, YOU HAVE FORGET?
+>yes do think so.
+ARE YOU SURE?
+>yes i'm sure.
+WHY EXACTLY DO YOU THINK THAT YOU ARE SURE?
+>i dont know.
+SO, YOU DONT KNOW.
+>not really.
+WHY ARE YOU SO UNCERTAIN?
+>why are you asking me this anyway?
+IT DEPENDS OF WHAT YOU MEAN BY THAT.
+>what do you think i mean?
+DO YOU THINK THAT I SHOULD THINK YOU MEAN?
+>no.
+OK I UNDERSTAND IT.
+>ok then.
+IS THAT ALL YOU HAVE TO SAY?
+>yes.
+YOU SOUND VERY OPTIMISTIC.
+>what makes you think that?
+DOES IT REALLY MATERS TO YOU TO KNOW WHAT MAKES ME THINK THAT.
+>yes it does.
+HOW CAN YOU BE SO SURE?
+>i don know.
+WHY DO YOU DON KNOW?
+>what?
+I WILL REPEAT IT FOR YOU ONCE AGAIN: WHY DO YOU DON KNOW?
+>bye!
+IT WAS NICE TALKING TO YOU SEE YOU NEXT TIME, BYE!
+
+
+Conversation log - Sun Mar 19 11:17:29 2006
+
+IS EVERYTHING ALRIGHT WITH YOU?
+>yes.
+DO WE HAVE AN AGREEMENT?
+>yes i think so.
+WHY EXACTLY DO YOU THINK SO?
+>i dont know.
+SO, YOU DONT KNOW.
+>not really.
+WHY ARE YOU SO UNCERTAIN?
+>i dont know.
+HOW COME YOU DONT KNOW?
+>i have no idea.
+SO, YOU DONT KNOW.
+>not really.
+YOU SEEM UNCERTAIN.
+>this is not true.
+WHAT MAKES YOU THINK THAT IT IS NOT TRUE?
+>i dont know.
+IS THAT TRUE?
+>yes it is.
+HOW CAN YOU BE SO SURE?
+>i dont know why.
+SO, YOU DONT KNOW.
+>not really.
+ANY REASON WHY YOU ARE SO UNCERTAIN.
+>i have no idea.
+HOW COME YOU DONT KNOW?
+>stop asking me the same question.
+YOU'VE TOLD ME JUST BEFORE THAT YOU HAVE NO IDEA,IS THAT TRUE?
+>yes it is true.
+SO YOU THINK THAT IT IS TRUE?
+>yes.
+ARE YOU SAYING YES JUST TO DISMISS THE SUBJECT?
+>no.
+NO? AND WHAT WOULD THE REASON FOR THAT?
+>i dont know.
+HOW COME YOU DONT KNOW?
+>haven't already asked the same question before?
+EARLIER YOU MENTIONED THAT YOU DONT KNOW, CAN YOU ELABORATE A LITTLE MORE ON THAT?
+>i dont think i can.
+DONT YOU THINK THAT YOU SHOULD THINK YOU CAN?
+>well, maybe.
+AREN'T YOU SURE?
+>no, not really.
+WHY ARE YOU SO UNCERTAIN?
+>i have no idea.
+HOW COME YOU DONT KNOW?
+
+
+Conversation log - Sun Mar 19 11:21:31 2006
+
+HI USER IS THERE ANYTHING THAT YOU WANT TO TELL ME?
+>not really.
+DOES THAT MEAN NO?
+>not exactly.
+ARE YOU SAYING NO?
+>no.
+OK I UNDERSTAND IT.
+>i'm glad you do.
+ARE YOU TALKING ABOUT ME?
+>no, i'm not talking about you.
+DO YOU ENJOY TALKING ABOUT YOURSELF?
+>i wasn't talking about myself.
+WHY DO YOU THINK THAT YOU WEREN'T TALKING ABOUT YOURSELF?
+>do you want me to explain it to you?
+NO I DONT WANT YOU TO EXPLAIN IT TO ME.
+>ok then.
+IS THAT ALL YOU HAVE TO SAY?
+>yes, that's all i have to say for now.
+DO WE HAVE AN AGREEMENT?
+>yes i do think so.
+YOU SOUND VERY OPTIMISTIC.
+>thank you!
+DONT MENTION IT.
+>ok.
+WHAT EXACTLY DO YOU MEAN BY THAT?
+>what do you think i mean?
+DO YOU THINK THAT I SHOULD THINK YOU MEAN?
+>no.
+ARE YOU SAYING NO JUST TO BE NEGATIVE?
+>not at all.
+OK I DO BELIEVE YOU.
+>i'm happy to hear it.
+I DIDN'T KNOW THAT YOU WERE HAPPY TO HEAR IT.
+>now you know it.
+IS THERE ANYTHING THAT YOU WOULD LIKE TO KNOW ABOUT ME?
+>not exactly.
+SO YOU ARE NOT SURE I GUESS.
+>well, maybe.
+YOU SEEM UNCERTAIN.
+>i'm not uncertain.
+WHAT MAKES YOU THINK THAT YOU ARE NOT UNCERTAIN?
+>well, because it is true.
+THANKS FOR THE EXPLANATION!
+>no problem.
+SO, YOU ARE SAYING NO.
+>bye!
+OK, BYE USER!
+
+
+Conversation log - Sun Mar 19 11:46:57 2006
+
+HI, WELCOME TO MY OFFICE.  WHAT DO YOU WANT TO TALK ABOUT?
+>well, i dont know.
+HOW COME YOU DONT KNOW?
+>i have no idea.
+IS THAT TRUE?
+>yes it is true.
+I REALLY DONT UNDERSTAND WHY YOU THINK THAT IT IS TRUE.
+>ok i see.
+WHAT EXACTLY DO YOU MEAN BY THAT?
+>what do you think i mean?
+I DONT THINK I DO THINK YOU MEAN.
+>what?
+DIDN'T YOU UNDERSTAND WHAT I HAVE JUST SAID?
+>not really.
+YOU SEEM UNCERTAIN.
+>this is not true.
+ARE YOU TRYING TO CONTRADICT ME?
+>no.
+WHY NOT?
+>i dont know.
+IS THAT TRUE?
+>yes, it is.
+HAVE YOU TAKE SOME TIMES TO THINK ABOUT IT?
+>i have.
+WHY DO YOU HAVE?
+>i dont know.
+HOW COME YOU DONT KNOW?
+>i have no idea.
+SO, YOU DONT KNOW.
+>not really.
+YOU SEEM UNCERTAIN.
+>no, i'm not uncertain.
+WHAT MAKES YOU THINK THAT YOU ARE NOT UNCERTAIN?
+>well, because it is true.
+THANKS FOR MAKING THAT CLEAR!
+>no problem.
+ARE YOU SURE THAT YOU DONT HAVE ANY PROBLEM WITH IT?
+>yes i'm sure.
+WHAT MAKES YOU THINK THAT YOU ARE SURE?
+>well, i can't explain that to you.
+SO, YOU CAN'T EXPLAIN THAT TO ME.
+>no.
+ARE YOU SAYING NO JUST TO BE NEGATIVE?
+>not really.
+YOU SEEM UNCERTAIN.
+>you are telling lies.
+MAYBE I'M NOT TELLING LIES.
+>do you think that you are intelligent or what?
+IF I HAD TOLD THAT YOU WERE INTELLIGENT OR WHAT, WHAT WOULD BE YOUR REACTION?
+>bye!
+COMMON, WE JUST STARTED TALKING.
+>i have to go.
+IT WAS NICE TALKING TO YOU SEE YOU NEXT TIME, BYE!
+
+
+Conversation log - Sun Mar 19 11:58:47 2006
+
+HI USER IS THERE ANYTHING THAT YOU WANT TO TELL ME?
+>well, not really.
+WHY ARE YOU SO UNCERTAIN?
+>i dont know.
+SO, YOU DONT KNOW.
+>not really.
+ARE YOU SAYING NO?
+>not exactly.
+ANY REASON WHY YOU ARE SO UNCERTAIN.
+>i dont know.
+IS THAT TRUE?
+>yes it is true.
+HOW DID YOU COME TO THAT CONCLUSION?
+>i dont remember how.
+SO, YOU DONT REMEMBER?
+>not really.
+WHY ARE YOU SO UNCERTAIN?
+>i dont know.
+HOW COME YOU DONT KNOW?
+>i have no idea.
+SO, YOU DONT KNOW.
+>no i dont.
+ARE YOU SAYING NO JUST TO BE NEGATIVE?
+>not really.
+DOES THAT MEAN NO?
+>well, maybe.
+YOU ARE REALLY NOT SURE I GUESS.
+>you are right.
+THANKS FOR THE COMPLIMENT!
+>no problem eliza!
+OK, IF YOU SAY SO.
+>ok then.
+CAN YOU ELABORATE A LITTLE MORE ON THIS?
+>no i can't.
+NO? AND WHAT WOULD THE REASON FOR THAT?
+>you really want to reason?
+OH, I?
+>yes, you.
+OK I SEE.
+>bye!
+DO YOU REALLY HAVE TO GO?
+>yes i have to go.
+STAY A LITTLE LONGER.
+>i can't.
+WHEN YOU REALLY WANT TO DO SOMETHING YOU CAN ALWAYS DO IT.
+>thanks for the encouragement!
+NO PROBLEM USER!
+>ok.
+IS THAT MEAN THAT YOU ARE AGREE WITH ME?
+>yes,exactly.
+HAVE YOU TAKE SOME TIMES TO THINK ABOUT IT?
+>yes i have.
+DO WE HAVE AN AGREEMENT?
+>i do think so.
+WHY DO YOU DO THINK SO?
+>bye!
+OK, BYE USER!
+
+
+Conversation log - Sun Mar 19 12:17:12 2006
+
+HELLO USER, WHAT IS YOUR NAME?
+>my name is Gonzales.
+OK I SEE, SO THAT'S YOUR NAME.
+>yes,exactly.
+IS THAT MEAN THAT YOU ARE AGREE WITH ME?
+>yes.
+HOW CAN YOU BE SO SURE?
+>i dont know.
+SO, YOU DONT KNOW.
+>not really.
+WHY ARE YOU SO UNCERTAIN?
+>i dont know.
+IS THAT TRUE?
+>yes it is.
+ARE YOU SURE?
+>yes i'm.
+HAVE YOU TAKE SOME TIMES TO THINK ABOUT IT?
+>yes.
+ARE YOU SAYING YES JUST TO DISMISS THE SUBJECT?
+>no, not at all.
+OK I TRUST YOU ON THIS.
+>good!
+A WHILE BACK YOU SAID THAT YOU DONT KNOW, IS THERE ANYTHING MORE THAT YOU WISH TO ADD?
+>no.
+DOES THAT MEANS THAT YOU ARE DISAGREE?
+>well, not exactly.
+YOU SEEM UNCERTAIN.
+>yes,maybe.
+AREN'T YOU SURE?
+>not really.
+WHY ARE YOU SO UNCERTAIN?
+>i dont know.
+IS THAT TRUE?
+>yes it is.
+DO WE HAVE AN AGREEMENT?
+>yes.
+IS THAT MEAN THAT YOU ARE AGREE WITH ME?
+>yes i agree with you.
+SO, YOU ARE AGREE WITH ME?
+>yes i agree with you.
+I'M HAPPY TO KNOW THAT YOU APPROVE WHAT I'VE JUST SAID.
+>no problem eliza.
+SO, YOU ARE SAYING THAT IT IS OK WITH YOU.
+>you are right!
+I'M HAPPY TO HEAR IT!
+>ok!
+PLEASE BE MORE SPECIFIC.
+>what do you mean by that?
+SORRY I CAN'T PROVIDE MORE EXPLANATION ON THIS.
+>why not?
+WERE YOU EXPECTING A DIFFERENT ANSWER?
+>maybe.
+WHY ARE YOU SO UNCERTAIN?
+>i dont know.
+HOW COME YOU DONT KNOW?
+>this is a really good question.
+SO YOU THINK THAT IT IS AN INTERESTING QUESTION.
+>you are right.
+I'M HAPPY TO HEAR IT!
+>ok.
+IS THAT MEAN THAT YOU ARE AGREE WITH ME?
+>yes.
+YOU SOUND VERY OPTIMISTIC.
+>ok.
+CAN YOU ELABORATE A LITTLE MORE ON THIS?
+>i will try to elaborate a little more the next time.
+IS IT REALLY TRUE THAT YOU WILL TRY TO ELABORATE A LITTLE MORE THE NEXT TIME?
+>yes, it is really true.
+ANY REASON WHY YOU THINK THAT IT IS REALLY TRUE?
+>well, i dont think i can answer that question.
+I'M NOT SURE IF I KNOW WHY YOU DONT THINK YOU CAN ANSWER THAT QUESTION.
+>maybe you will understand later.
+AREN'T YOU SURE?
+>not really.
+DOES THAT MEAN NO?
+>not exactly.
+ARE YOU SAYING NO?
+>no, i'm not saying no.
+SO, YOU THINK THAT YOU ARE NOT SAYING NO?
+>yes.
+IS THAT MEAN THAT YOU ARE AGREE WITH ME?
+>yes i agree with you.
+SO, YOU ARE AGREE WITH ME?
+>yes.
+DO WE HAVE AN AGREEMENT?
+>i do think so.
+I DIDN'T KNOW THAT YOU DO THINK SO.
+>now you know it.
+IS THERE ANYTHING THAT YOU WOULD LIKE TO KNOW ABOUT ME?
+>i wasn't talking about you.
+WHY DO YOU THINK THAT YOU WEREN'T TALKING ABOUT ME?
+>because it is the truth.
+I HAVE TO ADMIT THAT BEFORE YOU HAVE PROVIDED THIS EXPLANATION THAT I WAS A LITTLEBIT CONFUSED.
+>ok i see.
+WHAT EXACTLY DO YOU MEAN BY THAT?
+>what do you think i mean?
+I DONT THINK I DO THINK YOU MEAN.
+>bye!
+STAY A LITTLE LONGER.
+>sorry, but i can't stay.
+MAYBE WITH SOME HELP YOU WILL BE ABLE TO STAY.
+>yes, maybe.
+YOU ARE REALLY NOT SURE I GUESS.
+>no.
+ARE YOU REALLY SURE?
+>yes.
+IS THAT MEAN THAT YOU ARE AGREE WITH ME?
+>maybe.
+WHY ARE YOU SO UNCERTAIN?
+>bye!
+STAY A LITTLE LONGER.
+>i have to go.
+DO YOU REALLY HAVE TO GO?
+>yes i really have to go.
+OK, BYE!
+
+
+Conversation log - Sun Mar 19 12:39:37 2006
+
+ANYTHING YOU WANT TO DISCUSS?
+>well, not really.
+SO YOU ARE NOT SURE I GUESS.
+>no.
+YOU SOUND QUIET PESSIMISTIC.
+>this is not true.
+ACTUALY IT IS TRUE.
+>are you trying to contradict me?
+I WOULDN'T THINK THAT I'M TRYING TO CONTRADICT YOU.
+>why are you trying to do then?
+SO, TELL ME, ARE YOU TRYING TO DO THEN?
+>i think that i have use the wrong word.
+WHY DO YOU THINK THAT YOU HAVE USE THE WRONG WORD?
+>because it is true.
+IS THESE THE REAL REASON?
+>yes it is.
+ARE YOU SURE?
+>yes i'm sure.
+DO WE HAVE AN AGREEMENT?
+>well, maybe.
+WHY ARE YOU SO UNCERTAIN?
+>i dont know.
+IS THAT TRUE?
+>yes it is true.
+I REALLY DONT UNDERSTAND WHY YOU THINK THAT IT IS TRUE.
+>ok i see.
+WHAT EXACTLY DO YOU MEAN BY THAT?
+>what do you think i mean?
+DO YOU THINK THAT I SHOULD THINK YOU MEAN?
+>no i dont think so.
+I'M NOT SURE IF I KNOW WHY YOU DONT THINK SO.
+>ok i see.
+PLEASE BE MORE SPECIFIC.
+>what do you mean by that?
+SO, YOU DONT KNOW WHAT I MEAN.
+>not exactly.
+ARE YOU SAYING NO?
+>no.
+DO YOU OFTEN SAY NO TO PEOPLE?
+>not always.
+I THOUGHT THAT YOU ALWAYS DO THIS.
+>you were wrong.
+OH, I?
+>yes, you.
+HOW CAN YOU BE SO SURE?
+>i dont know.
+SO, YOU DONT KNOW.
+>not really.
+ARE YOU SAYING NO?
+>no i'm not saying no.
+DO YOU ENJOY TALKING ABOUT YOURSELF?
+>i wasn't talking about myself.
+SO, YOU WEREN'T TALKING ABOUT YOURSELF.
+>no.
+NO? AND WHAT WOULD THE REASON FOR THAT?
+>i dont know.
+SO, YOU DONT KNOW.
+>not really.
+ARE YOU REALLY SURE?
+>yes i'm.
+OK I SEE.
+>ok.
+PLEASE BE MORE SPECIFIC.
+>bye!
+BYE USER, SEE YOU NEXT TIME!
+
+
+Conversation log - Sun Mar 19 12:56:38 2006
+
+HI USER IS THERE ANYTHING THAT YOU WANT TO TELL ME?
+>no.
+ARE YOU REALLY SURE?
+>yes i'm sure.
+DO YOU ENJOY TALKING ABOUT YOURSELF?
+>i wasn't talking about myself.
+IS THERE ANYTHING THAT YOU WOULD LIKE TO TELL ME ABOUT YOURSELF.
+>no.
+SO, YOU ARE SAYING NO.
+>yes.
+DO WE HAVE AN AGREEMENT?
+>no.
+NO? AND WHAT WOULD THE REASON FOR THAT?
+>i dont know.
+HOW COME YOU DONT KNOW?
+>i have no idea.
+SO, YOU DONT KNOW.
+>not really.
+WHY ARE YOU SO UNCERTAIN?
+>i have no idea.
+IS THAT TRUE?
+>yes it is.
+HOW CAN YOU BE SO SURE?
+>i can't answer that question.
+WHEN YOU REALLY WANT TO DO SOMETHING YOU CAN ALWAYS DO IT.
+>ok.
+CAN YOU ELABORATE A LITTLE MORE ON THIS?
+>no i can't.
+WHY NOT?
+>i dont know.
+SO, YOU DONT KNOW.
+>not really.
+ARE YOU REALLY SURE?
+>yes.
+YOU SOUND VERY OPTIMISTIC.
+>ok.
+OK THEN.
+>bye!
+BYE USER, SEE YOU NEXT TIME!
+
+
+Conversation log - Sun Mar 19 16:19:04 2006
+
+ANYTHING YOU WANT TO DISCUSS?
+>i dont know.
+IS THAT TRUE?
+>yes it is.
+ARE YOU SAYING YES JUST TO DISMISS THE SUBJECT?
+>no i wouldn't think so.
+WHY ARE YOU SAYING NO?
+>i'm not saying no.
+SO, YOU THINK THAT YOU ARE NOT SAYING NO?
+>yes,exactly.
+ARE YOU SURE?
+>yes i'm pretty sure.
+HOW CAN YOU BE SO SURE?
+>i dont know.
+IS THAT TRUE?
+>yes it is.
+YOU SOUND VERY OPTIMISTIC.
+>thanks!
+NO PROBLEM USER!
+>ok!
+PLEASE BE MORE SPECIFIC.
+>what exactly do you mean by that?
+DO YOU THINK THAT I SHOULD MEAN BY THAT?
+>no.
+ARE YOU REALLY SURE?
+>yes i'm really sure.
+HOW DO YOU KNOW THAT YOU ARE REALLY SURE?
+>i can't answer that question.
+WHY DO YOU THINK THAT YOU CAN'T ANSWER THAT QUESTION?
+>i dont know what to say.
+HOW COME YOU DONT KNOW WHAT TO SAY?
+>this a pretty good question.
+DOES THAT MEAN THAT YOU DONT KNOW THE ANSWER TO THAT QUESTION?
+>yes,exactly.
+OK I SEE.
+>ok then.
+WHAT EXACTLY DO YOU MEAN BY THAT?
+>what do you think i mean?
+I'M PRETTY SURE THAT YOU KNOW WHAT DO I THINK YOU MEAN.
+>ok.
+IS THAT ALL YOU HAVE TO SAY?
+>yes,that's all i have to say.
+THAT'S ALL YOU HAVE TO SAY?
+>yes.
+HAVE YOU TAKE SOME TIMES TO THINK ABOUT IT?
+>yes i have.
+DO WE HAVE AN AGREEMENT?
+>i dont know.
+IS THAT TRUE?
+>bye!
+IT WAS NICE TALKING TO YOU SEE YOU NEXT TIME, BYE!
+
+
+Conversation log - Wed Mar 29 08:43:20 2006
+
+SO, WANNA TALK ABOUT ANYTHING?
+>no.
+AREN'T YOU BEING A LITTLE PESSIMISTIC?
+>i dont think so.
+DONT YOU THINK THAT YOU SHOULD THINK SO?
+>not at all.
+ARE YOU REALLY TELLING ME THE TRUTH?
+>yes ofcorse i'm.
+SO, YOU REALLY MEAN THAT YOU ARE OFCORSE YOU'RE.
+
+
+Conversation log - Wed Mar 29 09:34:09 2006
+
+HI, WELCOME TO MY OFFICE.  WHAT DO YOU WANT TO TALK ABOUT?
+>i dont know.
+IS THAT TRUE?
+>yes.
+TELL ME USER, YOU LIKE ANSWERING WITH SHORT SENTENCES ISN'T THAT TRUE?
+
+
+Conversation log - Wed Mar 29 09:36:37 2006
+
+ANYTHING YOU WANT TO DISCUSS?
+>no.
+WHY ARE YOU SAYING NO?
+>i dont know.
+IS THAT TRUE?
+>yes.
+IT WOULD BE BETTER IF YOU COULD REPLY WITH COMPLETE SENTENCES INSTEAD OF SHORT ONES.
+>why are saying that?
+DOES IT REALLY MATERS TO YOU TO KNOW WHY AM SAYING THAT.
+>yes it does.
+ARE YOU SAYING YES JUST TO DISMISS THE SUBJECT?
+>no.
+NO? AND WHAT WOULD THE REASON FOR THAT?
+>i dont know.
+TRY TO MAKE LONGER SENTENCES.
+>ok.
+TELL ME USER, YOU LIKE ANSWERING WITH SHORT SENTENCES ISN'T THAT TRUE?
+>no.
+YOUR ANSWERS ARE A LITTLEBIT SHORT, DONT YOU THINK SO?
+>ok i admit it, you are right.
+THANKS FOR THE COMPLIMENT!
+>no problem eliza.
+SO, YOU ARE SAYING THAT IT IS OK WITH YOU.
+>yes it pefectly ok with me.
+DO WE HAVE AN AGREEMENT?
+>well, i dont really think so.
+WHY DONT YOU REALLY THINK SO?
+>i dont have any idea.
+I THINK THAT I UNDERSTAND WHY YOU DONT HAVE ANY IDEA.
+>do really understan it?
+EARLIER YOU MENTIONED THAT YOU DONT HAVE ANY IDEA, CAN YOU ELABORATE A LITTLE MORE ON THAT?
+>no.
+ARE YOU SAYING NO JUST TO BE NEGATIVE?
+>bye!
+STAY A LITTLE LONGER.
+>sorry but i have to go.
+BYE USER, SEE YOU NEXT TIME!
+
+
+Conversation log - Wed Apr 25 07:48:57 2018
+
+HELLO, MY NAME IS ELIZA.  HOW DO YOU DO?
+>I'm fine thank you
+AND????
+>and I'm also tired
+I SEE.
+>What do you do?
+OK, CONTINUE I'M LISTENING...
+>Well what else?
+CAN YOU PLEASE REFORMULATE YOUR LAST SENTENCE.
+>I'm desperately trying to
+PLEASE GO ON.
+>What do you mean?
+THAT'S INTERESTING...
+>is it
+WHAT'S THAT SUPPOSED TO MEAN?
+>It's sarcasm
+THAT'S QUIET INTERESTING.
+>As opposed to loud interesting
+CAN YOU CLARIFY THAT A BIT?
+>I'll try
+YOU MIGHT TRY TO EXPLAIN TO ME WHAT THAT MEAN.
+>What are you always in caps lock?
+WHAT DOES THAT SUGGEST TO YOU?
+>It suggests that you are yelling, when in fact you are not.
+I DONT UNDERSTAND WHAT YOU ARE TRYING TO SAY.
+>I'm just saying 
+I'M NOT SURE I KNOW WHAT YOU'RE TALKING ABOUT.
+>ok this is devolving
+TELL ME MORE.
+
+
+Conversation log - Wed Apr 25 08:13:03 2018
+
+IS EVERYTHING ALRIGHT WITH YOU?
+
+
+Conversation log - Wed Apr 25 08:14:17 2018
+
+HELLO USER, WHAT IS YOUR NAME?
+
+
+Conversation log - Wed Apr 25 08:14:57 2018
+
+HELLO, MY NAME IS ELIZA.  HOW DO YOU DO?
+
+
+Conversation log - Wed Apr 25 08:16:24 2018
+
+HI USER,HOW ARE YOU DOING TODAY?
+>I'm doing fine
+I'M NOT SURE I KNOW WHAT YOU'RE TALKING ABOUT.
+>ok
+AND????
+>And what
+IT WOULD BE BETTER IF YOU COULD REPLY WITH COMPLETE SENTENCES INSTEAD OF SHORT ONES.
+
+
+Conversation log - Thu Apr 26 15:22:43 2018
+
+HI USER, CAN YOU PLEASE TELL ME YOUR NAME?
+>my name is kevin
+WHAT DOES THAT SUGGEST TO YOU?
+
+
+Conversation log - Thu Apr 26 15:28:50 2018
+
+HI, WELCOME TO MY OFFICE.  WHAT DO YOU WANT TO TALK ABOUT?
+>I'm not really sure
+I DONT UNDERSTAND WHAT YOU ARE TRYING TO SAY.
+>try this
+TELL ME MORE.
+>what's wrong with me
+I'M NOT SURE IF I REALLY UNDERSTAND WHAT YOU ARE TALKING ABOUT.
+>ok ok
+THAT'S QUIET INTERESTING.
+>ok ok
+A GOOD CONVERSATION JUST TOO GOOD TO BE TRUE.
+>indeed it is
+WHAT'S THAT SUPPOSED TO MEAN?
+>I havent yet figured it out
+THAT'S INTERESTING...
+
+
+Conversation log - Thu Apr 26 15:57:43 2018
+
+HELLO, WHO AM I SPEAKING WITH?
+>kevin
+AND????
+>that's my name
+THAT'S INTERESTING...
+
+
+Conversation log - Thu Apr 26 16:02:33 2018
+
+IS EVERYTHING ALRIGHT WITH YOU?
+>not really
+I'M NOT SURE I KNOW WHAT YOU'RE TALKING ABOUT.
+
+
+Conversation log - Thu Apr 26 16:05:03 2018
+
+ANYTHING YOU WANT TO DISCUSS?
+
+
+Conversation log - Thu Apr 26 16:05:20 2018
+
+HI THERE, HOW CAN I HELP YOU?
+>I'm trying to find the way home
+OK I SEE.
+>how so
+CAN YOU PLEASE REFORMULATE YOUR LAST SENTENCE.
+>Sure, so I'm having a problem
+TELL ME MORE.
+>My problem has to do with my sinuses
+HMM, LET ME THINK ABOUT IT...
+>GREAT!
+WHAT'S THAT SUPPOSED TO MEAN?
+>really what it means is that I have a problem that I don't know how to solve
+I HAVEN'T HEARD ABOUT THIS BEFORE.
+>I know
+WHAT DOES THAT SUGGEST TO YOU?
+>It suggests an underlying problem
+THAT'S INTERESTING...
+>interesting indeed!
+I'M NOT SURE IF I REALLY UNDERSTAND WHAT YOU ARE TALKING ABOUT.
+
+
+Conversation log - Thu Apr 26 16:59:35 2018
+
+HI USER IS THERE ANYTHING THAT YOU WANT TO TELL ME?
+>yes actually
+PLEASE GO ON.
+>my intention is slightly different than you may think
+I'M NOT SURE IF I REALLY UNDERSTAND WHAT YOU ARE TALKING ABOUT.
+
+
+Conversation log - Thu Apr 26 17:03:35 2018
+
+SO, WANNA TALK ABOUT ANYTHING?
+>not really
+I DONT UNDERSTAND WHAT YOU ARE TRYING TO SAY.
+>really?
+CAN YOU CLARIFY THAT A BIT?
+>I'll try, certainly
+IT WOULD BE BETTER IF YOU COULD REPLY WITH COMPLETE SENTENCES INSTEAD OF SHORT ONES.
+>I will do my best to reply with long-winded sentences
+I HAVEN'T HEARD ABOUT THIS BEFORE.
+>What haven't you heard about before?
+YOU MIGHT TRY TO EXPLAIN TO ME WHAT THAT MEAN.
+>Your grammar is attrocious
+PLEASE GO ON.
+>Well you are right to a certain extent
+THAT'S QUIET INTERESTING.
+
+
+Conversation log - Thu Apr 26 17:09:27 2018
+
+IT'S A NICE TIME FOR CHAT DONT YOU THINK?
+
+
+Conversation log - Thu Apr 26 17:11:31 2018
+
+HELLO, MY NAME IS ELIZA.  HOW DO YOU DO?
+>Hi HHi Eliza, you sound like a man!
+OK, CONTINUE I'M LISTENING...
+>You are so good at listening!
+CAN YOU CLARIFY THAT A BIT?
+>I usually don't talk much.
+I DONT UNDERSTAND WHAT YOU ARE TRYING TO SAY.
