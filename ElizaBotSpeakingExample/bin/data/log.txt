@@ -1002,3 +1002,21 @@ OK, CONTINUE I'M LISTENING...
 CAN YOU CLARIFY THAT A BIT?
 >I usually don't talk much.
 I DONT UNDERSTAND WHAT YOU ARE TRYING TO SAY.
+
+
+Conversation log - Thu Apr 26 19:23:41 2018
+
+HELLO, MY NAME IS ELIZA.  HOW DO YOU DO?
+>Hi Eliza, I'm doing fine
+YOU MIGHT TRY TO EXPLAIN TO ME WHAT THAT MEAN.
+>Why don't you have better grammar?
+AND????
+>And what?
+TELL ME MORE.
+>Ok I will.
+OK, CONTINUE I'M LISTENING...
+
+
+Conversation log - Thu Apr 26 20:26:58 2018
+
+ANYTHING YOU WANT TO DISCUSS?
