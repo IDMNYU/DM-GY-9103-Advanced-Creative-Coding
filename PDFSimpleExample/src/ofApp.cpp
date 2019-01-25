@@ -2,7 +2,7 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-
+	ofSetWindowShape(400,400);
 	angle = 0;
 	oneShot = false;
 	pdfRendering = false;

@@ -17,27 +17,39 @@ void ofApp::update(){
 		contourFinder.findContours(cam);
 		contourFinder.setFindHoles(false);
 	}
-	vector<ofPolyline> polylines = contourFinder.getPolylines();
-	for(auto &polyline : polylines){
-		//gets the points from each polyline
-		vector<ofPoint> points = polyline.getVertices();
-		for(auto &point: points){
-			//log the x and y positions of each point along our polylines
-			ofLog() << point.x << "," << point.y << endl;
-		}
-	}
-
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-	cam.draw(0, 0);
-	contourFinder.draw();
+	if(bShowCam){
+		cam.draw(0, 0);
+	}
+	drawContourEdges();
+	// draws the entire contour finder
+	// includeing blobs
+	//	contourFinder.draw();
+}
+
+void ofApp::drawContourEdges(){
+	vector<ofPolyline> polylines = contourFinder.getPolylines();
+	for(auto &polyline : polylines){
+		polyline.draw();
+		
+		//gets the points from each polyline
+		vector<ofPoint> points = polyline.getVertices();
+		for(auto &point: points){
+			//log the x and y positions of each point along our polylines
+			//			ofLog() << point.x << "," << point.y << endl;
+		}
+	}
+	
 }
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
-
+	if(key == 'c'){
+		bShowCam = !bShowCam;
+	}
 }
 
 //--------------------------------------------------------------

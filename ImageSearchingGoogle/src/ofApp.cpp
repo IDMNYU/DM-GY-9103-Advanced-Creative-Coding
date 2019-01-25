@@ -2,11 +2,8 @@
 
 //Adapted from the Regular Expressions Example by @Kevin Siwoff
 
-// we need to include the RegularExpression
-// header file and say that we are using that
-// name space
-#include "Poco/RegularExpression.h"
-using Poco::RegularExpression;
+// we need to include the standard regex library
+#include <regex>
 
 // Some explanation on regular expressions
 // http://gnosis.cx/publish/programming/regular_expressions.html
@@ -18,11 +15,12 @@ using Poco::RegularExpression;
 
 //--------------------------------------------------------------
 void ofApp::setup() {
-    ofBackground(0);
+    ofBackground(250);
     page = 0;
 	searchPhrase = "storage unit";
 	searchGoogleImages(searchPhrase);
 	searchPhrase.clear();//clear our search phrase so we can type a new phrase
+	ofSetRectMode(OF_RECTMODE_CENTER);
 }
 
 
@@ -37,64 +35,42 @@ void ofApp::searchGoogleImages( string term ) {
 	ofStringReplace(term, " ", "%20");
 	ofLogNotice() << term << endl;
 	
-	string googleImgURL = "http://www.google.com/search?q="+term+"&tbm=isch&sout=1&tbs=isz&&start="+ofToString(page);
-    cout << "searching for " << googleImgURL << endl;
+	string googleImgURL = "http://www.google.com/search?q="+term+"&tbm=isch&oq="+term+"&tbs=isz&&start="+ofToString(page);
+	cout << "searching for " << googleImgURL << endl;
     
     ofHttpResponse res = ofLoadURL(googleImgURL);
+	
     if(res.status > 0) {
-        
+		ofLogNotice() << "success response" << endl;
         // copy over the response date fromt the url load
         rawData = res.data.getText();
-        
-        // first we want to get the search contents tag
-        // in the webpage there is a table for all the images. we
-        // want to get the content in the table using 
-        // the <table> (.*?) </table> expression        
-        RegularExpression regEx("<table class=\"images_table\" style=\"table-layout:fixed\" [^>]+>(.*?)</table>");
-        RegularExpression::Match match;
-        int found = regEx.match(rawData, match);
-        
-        
-        // did we find the table tag with all the images
-        // if so lets now start pulling out all the img tags
-        if(found != 0) {
-            
-            // this is just the table content
-            string contents = rawData.substr(match.offset, match.length);
-            
-            // setup the regex for img tags
-            RegularExpression regEx("<img[^>]*src=\"([^\"]*)");
-            RegularExpression::Match imgMatch;
-            
-            // now lets search for img tags in the content 
-            // we keep search till we run out of img tags
-            while(regEx.match(contents, imgMatch) != 0) {
-                
-                // we get the sub string from the content
-                // and then trim the content so that we
-                // can continue to search 
-                string foundStr = contents.substr(imgMatch.offset, imgMatch.length);
-                contents = contents.substr(imgMatch.offset + imgMatch.length);
-                
-                // setup the regex for src attribute in the img tag
-                RegularExpression regImgEx("src=\"(.*?).$");
-                RegularExpression::Match srcMatch;
-                
-                // if we found the src tag lets grab just
-                // the url from the src attribute
-                if (regImgEx.match(foundStr, srcMatch)!=0) {
-                    
-                    // save the img url
-                    string url = foundStr.substr(srcMatch.offset+5, srcMatch.length);
-                    urls.push_back(url);
-                    
-                }
-                
-            }
-            // end while
-            
-        }
+		//uncomment to see raw data response from google images
+		//ofLogNotice() << rawData << endl;
+		
+		// We start our scrape by matching all content within the div#ires
+        // want to get the content in the div using
+        // a regular expression match and subgroup
+		string imgResultsPattern = ".*\"ires\">(.*)<div id=\"foot\">.*";
+		regex regEx(imgResultsPattern, std::regex::extended);
+		smatch m;
+		
+		if( regex_match(rawData, m, regEx) ){
+			//we want the second element in m because it contains our subgroup
+			string imageResultsStr = m[1];
+			smatch img;
+			regex imgPattern("src=\"([^> | ^\"]*)\"");
+			//once we've matched our outer content, we can
+			//search for all of the image tags containg src attributes
+			while(regex_search(imageResultsStr, img, imgPattern)){
+				//push the image src onto our urls vector
+				urls.push_back(img[1].str());
+				//regex_search will return one result at a time. To iterate our regex_search
+				//replace the string we are searching with the unsearched content
+				imageResultsStr = img.suffix().str();
+			}
+		}
     }
+
     
     // load all the images
     for (unsigned int i=0; i<urls.size(); i++) {
@@ -131,24 +107,19 @@ void ofApp::update(){
 void ofApp::draw() {
 	//draw our search phrase in the top left corner
 	ofDrawBitmapString(searchPhrase, 20.0f, 20.0f);
-	ofPushMatrix();
+	//ofPushMatrix();
 	
     // draw the images
-    float x = 0;
-    float y = 0;
+	ofTranslate(ofGetWidth()*0.5f, ofGetHeight()*0.5f);
+	ofScale(4.0);
     for(unsigned int i=0; i<images.size(); i++) {
         ofSetColor(255);
-		ofTranslate(640+x, 20+y);
-		ofRotateY(ofGetElapsedTimef());
-        images[i].draw(0,0);
-        
-        y += images[i].getHeight()+2;
-        if(y > ofGetHeight()-100) {
-            y = 0;
-            x += 200;
-        }
+		//check that the image is done loading
+		//so we don't draw an unallocated texture
+		if(images[i].bDoneLoading){
+			images[i].draw(0,0);
+		}
     }
-	ofPopMatrix();
     
 }
 
@@ -164,7 +135,7 @@ void ofApp::keyPressed(int key){
 		searchPhrase.clear();
 	} else {
 		//we append our key character to the string searchPhrase
-		ofAppendUTF8(searchPhrase,key);
+		ofUTF8Append(searchPhrase,key);
 	}
 
     
