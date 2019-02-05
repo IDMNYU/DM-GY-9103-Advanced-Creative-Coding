@@ -124,4 +124,14 @@ ffmpeg -f lavfi -i cellauto=rule=123 -t 30 -pix_fmt yuv422p10 -vcodec prores -pr
 # https://trac.ffmpeg.org/wiki/Concatenate
 # https://trac.ffmpeg.org/wiki/Concatenate#differentcodec
 # https://trac.ffmpeg.org/wiki/mmcat
+echo "looping through all files in $1"
+if [ -d "$1" ]
+	then cd $1;
+		INPUTS=""
+		#try replacing * with *.mov, to filter by file extension 
+		for f in *; do
+			INPUTS+="-i $f "
+		done
+		echo $INPUTS
 
+fi

@@ -17,4 +17,5 @@ if [ -d "$1" ]
 			INPUTS+="-i $f "
 		done
 		echo $INPUTS
+
 fi
