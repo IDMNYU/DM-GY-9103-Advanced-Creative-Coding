@@ -35,8 +35,10 @@ void ofApp::drawContourEdges(){
 	for(auto &polyline : polylines){
 		polyline.draw();
 		
+		//auto is a way of declaring a variable
+		//without having to write its exact type
+		auto points = polyline.getVertices();
 		//gets the points from each polyline
-		vector<ofPoint> points = polyline.getVertices();
 		for(auto &point: points){
 			//log the x and y positions of each point along our polylines
 			//			ofLog() << point.x << "," << point.y << endl;

@@ -4,10 +4,15 @@
 void ofApp::setup(){
 	mVideoGrabber.setup(320, 240);
 	mVideoGrabber.setVerbose(true);//set the videoGrabber to verbose so we can get a debug output
-	mColorImage.allocate(320, 240);
-	mGrayscaleImage.allocate(320, 240);
-	mBgImage.allocate(320, 240);
-	mGrayDifference.allocate(320, 240);
+	
+	//get the width and height of our mVideoGrabber as a glm::ivec2 type
+	glm::ivec2 grabberSize = glm::ivec2(int(mVideoGrabber.getWidth()), int(mVideoGrabber.getHeight()));
+	//we access the x and y properties of our grabberSize like
+	//so
+	mColorImage.allocate(grabberSize.x, grabberSize.y);
+	mGrayscaleImage.allocate(grabberSize.x, grabberSize.y);
+	mBgImage.allocate(grabberSize.x, grabberSize.y);
+	mGrayDifference.allocate(grabberSize.x, grabberSize.y);
 }
 
 //--------------------------------------------------------------
@@ -33,12 +38,12 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-	mVideoGrabber.draw(20, 20);//draw the videoGrabber output
+
 	mColorImage.draw(20, mVideoGrabber.getWidth() + 20);//draw the colorImage output
 	mGrayscaleImage.draw(mColorImage.getWidth()+40, mVideoGrabber.getWidth() + 20);//draw the grayscaleImage output
 	
 	//we draw the grayscale difference which separates our bg from our subject
-	mGrayDifference.draw(mColorImage.getWidth()*2.0+40, mVideoGrabber.getWidth() + 20);
+	mGrayDifference.draw(20,20);
 }
 
 //--------------------------------------------------------------

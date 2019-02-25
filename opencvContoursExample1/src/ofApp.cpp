@@ -8,10 +8,12 @@ void ofApp::setup(){
 	vidPlayer.play();
 	vidPlayer.setLoopState(OF_LOOP_NORMAL);
 	
-    colorImg.allocate(320,240);
-	grayImage.allocate(320,240);
-	grayBg.allocate(320,240);
-	grayDiff.allocate(320,240);
+	glm::ivec2 vidPlayerSize = glm::ivec2(vidPlayer.getWidth(),vidPlayer.getHeight());
+	
+    colorImg.allocate(vidPlayerSize.x,vidPlayerSize.y);
+	grayImage.allocate(vidPlayerSize.x,vidPlayerSize.y);
+	grayBg.allocate(vidPlayerSize.x,vidPlayerSize.y);
+	grayDiff.allocate(vidPlayerSize.x,vidPlayerSize.y);
 
 	bLearnBakground = true;
 	threshold = 80;

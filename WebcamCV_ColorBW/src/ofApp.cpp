@@ -3,11 +3,13 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
 	mVideoGrabber.setup(320, 240);
-	mVideoGrabber.setVerbose(true);//set the videoGrabber to verbose so we can get a debug output
-	mColorImage.allocate(320, 240);
-	mGrayscaleImage.allocate(320, 240);
+	//we need to allocate exactly the number of pixels in our ofxCvColor and Grayscale images
+	//as in our VideoGrabber
+	mColorImage.allocate(int(mVideoGrabber.getWidth()), int(mVideoGrabber.getHeight()));
+	mGrayscaleImage.allocate(int(mVideoGrabber.getWidth()), int(mVideoGrabber.getHeight()));
 	
-	mBall.checkIntersects(ofVec2f(2.4f));
+	mVideoGrabber.setVerbose(true);//set the videoGrabber to verbose so we can get a debug output
+	
 }
 
 //--------------------------------------------------------------
@@ -22,9 +24,14 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-	mVideoGrabber.draw(20, 20);//draw the videoGrabber output
-	mColorImage.draw(20, mVideoGrabber.getWidth() + 20);//draw the colorImage output
-	mGrayscaleImage.draw(mColorImage.getWidth()+40, mVideoGrabber.getWidth() + 20);//draw the grayscaleImage output
+	//draw the raw videoGrabber output
+	mVideoGrabber.draw(20, 20);
+	
+	//draw the colorImage output below the videoGrabber
+	mColorImage.draw(20, mVideoGrabber.getWidth() + 20);
+	
+	//draw the grayscaleImage output
+	mGrayscaleImage.draw(mColorImage.getWidth()+40, mVideoGrabber.getWidth() + 20);
 }
 
 //--------------------------------------------------------------
