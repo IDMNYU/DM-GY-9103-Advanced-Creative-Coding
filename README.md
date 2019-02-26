@@ -20,5 +20,5 @@ Class repository for Advanced Creative Coding
 - Intro to OpenCV. Backgrounds, Centroids, Colors, and Edges in OpenCV
 - new data types: glm::ivec2 and glm::vec2
 - examples:
-	- opencvContoursExample1/
+	- [opencvContoursExample1/](opencvContoursExample1/)
 	- opencvExampleDrawing/
