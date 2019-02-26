@@ -6,14 +6,14 @@ Class repository for Advanced Creative Coding
 - String concatenation and basic math
 - collections (c++ vectors)
 - examples:
-	- MultipleImagesVector/
-	- ImageMasking/
-	- ImageSearchingGoogle/
-	- VideoPlayerExample/
-	- VideoObjectOnVideo/
-	- VideoExampleZoom/
-	- VideoExampleSpeed/
-	- VideoExampleSlitscan/
+	- [MultipleImagesVector/](MultipleImagesVector/)
+	- [ImageMasking/](ImageMasking/)
+	- [ImageSearchingGoogle/](ImageSearchingGoogle/)
+	- [VideoPlayerExample/](VideoPlayerExample/)
+	- [VideoObjectOnVideo/](VideoObjectOnVideo/)
+	- [VideoExampleZoom/](VideoExampleZoom/)
+	- [VideoExampleSpeed/](VideoExampleSpeed/)
+	- [VideoExampleSlitscan/](VideoExampleSlitscan/)
 
 ## Week 5 core learning:
 - What is an addon, and how does it work?
@@ -21,4 +21,4 @@ Class repository for Advanced Creative Coding
 - new data types: glm::ivec2 and glm::vec2
 - examples:
 	- [opencvContoursExample1/](opencvContoursExample1/)
-	- opencvExampleDrawing/
+	- [opencvExampleDrawing/](opencvExampleDrawing/)
