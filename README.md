@@ -22,3 +22,13 @@ Class repository for Advanced Creative Coding
 - examples:
 	- [opencvContoursExample1/](opencvContoursExample1/)
 	- [opencvExampleDrawing/](opencvExampleDrawing/)
+
+## Week 6 core learning:
+- Custom classes, memory management, fbos
+- Surveilance and art
+- examples:
+	- [WebcamGettingStarted/](WebcamGettingStarted/)
+	- [WebcamFbo/](WebcamFbo/)
+	- [WebcamCV_ColorBW/](WebcamCV_ColorBW/)
+	- [WebcamCV_BGSubtraction/](WebcamCV_BGSubtraction/)
+	
