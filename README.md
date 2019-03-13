@@ -32,3 +32,6 @@ Class repository for Advanced Creative Coding
 	- [WebcamCV_ColorBW/](WebcamCV_ColorBW/)
 	- [WebcamCV_BGSubtraction/](WebcamCV_BGSubtraction/)
 	
+## Week 7 core learning:
+- Introduction to sound
+- [sign up for laser cutter training at Tandon Makerspace](http://makerspace.engineering.nyu.edu/training/)
