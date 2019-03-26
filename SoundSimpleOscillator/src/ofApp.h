@@ -23,6 +23,7 @@ class ofApp : public ofBaseApp{
 		void gotMessage(ofMessage msg);
 		//our audio output stream
 		void audioOut( ofSoundBuffer &outBuffer );
+		ofSoundStream soundStream;
 		double mPhase = 0;
 		ofxFloatSlider mFreqSlider;
 		ofxFloatSlider mVolumeSlider;

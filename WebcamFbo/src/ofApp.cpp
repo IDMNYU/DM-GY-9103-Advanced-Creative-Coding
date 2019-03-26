@@ -4,7 +4,9 @@
 void ofApp::setup(){
 	mVideoGrabber.setup(320, 240);
 	mVideoGrabber.setVerbose(true);
+	
 	mFbo.allocate(mVideoGrabber.getWidth(), mVideoGrabber.getHeight(), GL_RGBA);
+	
 	
 	//now we add lines to our path
 	mPath.lineTo(mVideoGrabber.getWidth()/4, mVideoGrabber.getHeight());

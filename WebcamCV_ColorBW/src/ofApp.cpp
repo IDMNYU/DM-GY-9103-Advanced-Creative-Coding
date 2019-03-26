@@ -5,6 +5,9 @@ void ofApp::setup(){
 	mVideoGrabber.setup(320, 240);
 	//we need to allocate exactly the number of pixels in our ofxCvColor and Grayscale images
 	//as in our VideoGrabber
+	
+	//if this were an fbo, we would need to describe pixel ordering
+	
 	mColorImage.allocate(int(mVideoGrabber.getWidth()), int(mVideoGrabber.getHeight()));
 	mGrayscaleImage.allocate(int(mVideoGrabber.getWidth()), int(mVideoGrabber.getHeight()));
 	

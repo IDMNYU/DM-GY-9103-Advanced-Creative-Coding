@@ -24,6 +24,7 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 		//our audio output stream
+		ofSoundStream soundStream;
 		void audioOut( ofSoundBuffer &outBuffer );
 		void onButtonPress();
 		double mPhase = 0;

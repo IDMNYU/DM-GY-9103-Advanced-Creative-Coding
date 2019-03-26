@@ -63,9 +63,16 @@ void ofApp::draw(){
 		colorImg.draw(0,0);
 	}
     for (int i = 0; i < contourFinder.nBlobs; i++){
+		ofNoFill();
+		ofSetColor(ofColor::blue);
+		ofDrawRectangle(contourFinder.blobs[i].boundingRect);
+		
+		ofPushStyle();
 		ofSetColor(ofColor::fuchsia);
 		ofFill();
+		
 		ofDrawEllipse(contourFinder.blobs[i].boundingRect.getCenter(), 20,20);
+		ofPopStyle();
     }
 	ofPopMatrix();
 	

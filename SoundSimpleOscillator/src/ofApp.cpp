@@ -11,7 +11,17 @@ void ofApp::setup(){
 	mGui.add(&mVolumeSlider);
 	// 2 output channels (stereo), 0 input channels
 	// 512 samples per buffer, 2 buffers
-	ofSoundStreamSetup(2, 0, sampleRate, 512, 2);
+	//old way of setting up soundstream
+	//ofSoundStreamSetup(2, 0, sampleRate, 512, 2);
+	
+	//new way of setting up soundstream
+	ofSoundStreamSettings settings;
+	settings.setOutListener(this);
+	settings.sampleRate = sampleRate;
+	settings.numOutputChannels = 2;
+	settings.numInputChannels = 0;
+	settings.bufferSize = 512;
+	soundStream.setup(settings);
 }
 
 //--------------------------------------------------------------

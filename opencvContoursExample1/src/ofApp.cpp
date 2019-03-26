@@ -35,7 +35,9 @@ void ofApp::update(){
 
 		colorImg.setFromPixels(vidPlayer.getPixels());
 
+		
         grayImage = colorImg;
+		
 		if (bLearnBakground == true){
 			grayBg = grayImage;		// the = sign copys the pixels from grayImage into grayBg (operator overloading)
 			bLearnBakground = false;
@@ -101,12 +103,14 @@ void ofApp::keyPressed(int key){
 		case '+':
 			threshold ++;
 			if (threshold > 255) threshold = 255;
+			
 			break;
 		case '-':
 			threshold --;
 			if (threshold < 0) threshold = 0;
 			break;
 	}
+	ofLogNotice() << threshold << endl;
 }
 
 //--------------------------------------------------------------

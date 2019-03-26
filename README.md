@@ -35,3 +35,8 @@ Class repository for Advanced Creative Coding
 ## Week 7 core learning:
 - Introduction to sound
 - [sign up for laser cutter training at Tandon Makerspace](http://makerspace.engineering.nyu.edu/training/)
+
+## Week 8 core learning:
+- Sound, continued
+- Key terminology, envelopes, and synthesis
+- [Intro to Synthesis Part 1 - The Building Blocks of Sound & Synthesis](https://www.youtube.com/watch?v=atvtBE6t48M)
