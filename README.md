@@ -40,3 +40,9 @@ Class repository for Advanced Creative Coding
 - Sound, continued
 - Key terminology, envelopes, and synthesis
 - [Intro to Synthesis Part 1 - The Building Blocks of Sound & Synthesis](https://www.youtube.com/watch?v=atvtBE6t48M)
+
+## Week 12 core learning
+- Passing uniform data to shaders
+- 3d primitives
+- ofEasyCam for 3d camera manipulation
+- texturing geometries
